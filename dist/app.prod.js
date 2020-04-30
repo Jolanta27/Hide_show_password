@@ -1,0 +1,1 @@
+"use strict";var input=document.getElementById("input"),btn=document.getElementById("btn");function toggle(){"password"==input.type?(btn.classList.remove("fa-eye"),btn.classList.add("fa-eye-slash"),input.type="text"):(btn.classList.remove("fa-eye-slash"),btn.classList.add("fa-eye"),input.type="password")}
